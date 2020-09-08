@@ -1307,6 +1307,7 @@ dependencies = [
  "actix-files",
  "actix-rt",
  "actix-web",
+ "serde",
  "toml",
 ]
 
