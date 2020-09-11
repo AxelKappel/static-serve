@@ -23,7 +23,8 @@ RUN cargo build --release
 COPY config.toml ./config.toml
 
 # copy start bash script
-COPY start.sh ./start.sh
+COPY start.sh ../bin/start
+RUN chmod u+x ../bin/start
 
 # set the startup command to run your binary
-CMD ["./target/release/static-serve"]
+CMD ["start"]

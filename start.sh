@@ -1,1 +1,2 @@
-./target/release/static-serve
+#!/bin/bash
+../static-serve/target/release/static-serve
