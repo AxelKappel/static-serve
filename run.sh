@@ -1,1 +1,1 @@
-sudo docker run -p 8089:80 --name static-serve-test static-serve
+sudo docker run -p 80:80 --name static-serve-test static-serve
